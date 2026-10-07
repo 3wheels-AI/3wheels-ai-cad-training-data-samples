@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary CAD exports
+*.bak
+*.tmp
+~*
+
+# Local tooling
+.vscode/
+.idea/

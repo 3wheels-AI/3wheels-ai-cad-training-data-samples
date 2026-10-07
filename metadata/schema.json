@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "3Wheels AI CAD Sample Metadata",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "data_type",
+    "category",
+    "domain",
+    "file_format",
+    "object_type",
+    "version",
+    "file_path"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string"
+    },
+    "data_type": {
+      "type": "string",
+      "enum": [
+        "2D",
+        "3D"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "file_format": {
+      "type": "string"
+    },
+    "object_type": {
+      "type": "string"
+    },
+    "units": {
+      "type": "string"
+    },
+    "annotation_status": {
+      "type": "string"
+    },
+    "annotation_type": {
+      "type": "string"
+    },
+    "quality_status": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "file_path": {
+      "type": "string",
+      "description": "Path to the CAD file relative to the repository root"
+    },
+    "preview_path": {
+      "type": "string",
+      "description": "Path to a PNG preview image"
+    }
+  }
+}

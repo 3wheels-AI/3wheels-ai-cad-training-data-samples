@@ -1,0 +1,11 @@
+sample_id,data_type,category,domain,file_format,object_type,units,annotation_status,annotation_type,quality_status,source_type,version,file_path,preview_path
+CAD_2D_001,2D,mechanical,engineering,DXF,flange_plate,mm,annotated,geometry,verified,synthetic_original,1.0,samples/2d/CAD_2D_001_flange_plate.dxf,samples/2d/CAD_2D_001_flange_plate.png
+CAD_2D_002,2D,architectural,architecture,DXF,floor_plan,mm,annotated,drawing,verified,synthetic_original,1.0,samples/2d/CAD_2D_002_floor_plan.dxf,samples/2d/CAD_2D_002_floor_plan.png
+CAD_2D_003,2D,electrical,electrical_engineering,DXF,electrical_schematic,mm,annotated,symbol,verified,synthetic_original,1.0,samples/2d/CAD_2D_003_circuit_schematic.dxf,samples/2d/CAD_2D_003_circuit_schematic.png
+CAD_2D_004,2D,mechanical,engineering,DXF,bracket,mm,annotated,geometry,verified,synthetic_original,1.0,samples/2d/CAD_2D_004_l_bracket.dxf,samples/2d/CAD_2D_004_l_bracket.png
+CAD_2D_005,2D,architectural,architecture,DXF,building_elevation,mm,annotated,drawing,verified,synthetic_original,1.0,samples/2d/CAD_2D_005_building_elevation.dxf,samples/2d/CAD_2D_005_building_elevation.png
+CAD_3D_001,3D,mechanical,engineering,STEP,bracket,mm,annotated,geometry,verified,synthetic_original,1.0,samples/3d/CAD_3D_001_l_bracket.step,samples/3d/CAD_3D_001_l_bracket.png
+CAD_3D_002,3D,mechanical,engineering,STEP,gear,mm,annotated,geometry,verified,synthetic_original,1.0,samples/3d/CAD_3D_002_spur_gear.step,samples/3d/CAD_3D_002_spur_gear.png
+CAD_3D_003,3D,automotive,automotive,STEP,brake_disc,mm,annotated,geometry,verified,synthetic_original,1.0,samples/3d/CAD_3D_003_brake_disc.step,samples/3d/CAD_3D_003_brake_disc.png
+CAD_3D_004,3D,automotive,automotive,STEP,wheel_rim,mm,annotated,geometry,verified,synthetic_original,1.0,samples/3d/CAD_3D_004_wheel_rim.step,samples/3d/CAD_3D_004_wheel_rim.png
+CAD_3D_005,3D,industrial,industrial_design,STEP,pipe_flange,mm,annotated,geometry,verified,synthetic_original,1.0,samples/3d/CAD_3D_005_pipe_flange.step,samples/3d/CAD_3D_005_pipe_flange.png

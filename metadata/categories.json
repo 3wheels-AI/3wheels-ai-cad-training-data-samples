@@ -1,0 +1,31 @@
+{
+  "2d": [
+    "mechanical",
+    "architectural",
+    "electrical"
+  ],
+  "3d": [
+    "mechanical",
+    "automotive",
+    "industrial"
+  ],
+  "domains": [
+    "engineering",
+    "architecture",
+    "electrical_engineering",
+    "automotive",
+    "industrial_design"
+  ],
+  "formats": [
+    "DWG",
+    "DXF",
+    "STEP",
+    "STP",
+    "IGES",
+    "IGS",
+    "STL",
+    "OBJ",
+    "SAT",
+    "PDF"
+  ]
+}

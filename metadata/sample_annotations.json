@@ -1,0 +1,218 @@
+[
+  {
+    "sample_id": "CAD_2D_001",
+    "description": "Circular flange plate with central bore and 6 bolt holes on a pitch circle",
+    "labels": [
+      {
+        "label": "flange_plate",
+        "category": "mechanical"
+      }
+    ],
+    "geometry_entity_counts": {
+      "CIRCLE": 9,
+      "LINE": 2,
+      "TEXT": 1
+    },
+    "layers": [
+      "CENTER",
+      "OUTLINE",
+      "TEXT"
+    ],
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_2D_002",
+    "description": "Residential floor plan with walls, door swing, windows and room labels",
+    "labels": [
+      {
+        "label": "floor_plan",
+        "category": "architectural"
+      }
+    ],
+    "geometry_entity_counts": {
+      "ARC": 1,
+      "LINE": 8,
+      "LWPOLYLINE": 2,
+      "TEXT": 4
+    },
+    "layers": [
+      "HIDDEN",
+      "OUTLINE",
+      "TEXT"
+    ],
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_2D_003",
+    "description": "Series circuit with battery, two resistors and a lamp",
+    "labels": [
+      {
+        "label": "electrical_schematic",
+        "category": "electrical"
+      }
+    ],
+    "geometry_entity_counts": {
+      "CIRCLE": 1,
+      "LINE": 13,
+      "LWPOLYLINE": 3,
+      "TEXT": 5
+    },
+    "layers": [
+      "OUTLINE",
+      "TEXT"
+    ],
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_2D_004",
+    "description": "L-shaped bracket with inner fillet, two holes and a slot",
+    "labels": [
+      {
+        "label": "bracket",
+        "category": "mechanical"
+      }
+    ],
+    "geometry_entity_counts": {
+      "ARC": 3,
+      "CIRCLE": 2,
+      "LINE": 8,
+      "TEXT": 1
+    },
+    "layers": [
+      "OUTLINE",
+      "TEXT"
+    ],
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_2D_005",
+    "description": "Two-storey front elevation with windows, door and roof slab",
+    "labels": [
+      {
+        "label": "building_elevation",
+        "category": "architectural"
+      }
+    ],
+    "geometry_entity_counts": {
+      "LINE": 7,
+      "LWPOLYLINE": 9,
+      "TEXT": 1
+    },
+    "layers": [
+      "HIDDEN",
+      "OUTLINE",
+      "TEXT"
+    ],
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_3D_001",
+    "description": "L-bracket solid with four mounting holes",
+    "labels": [
+      {
+        "label": "bracket",
+        "category": "mechanical"
+      }
+    ],
+    "bounding_box_mm": {
+      "x": 100.0,
+      "y": 60.02,
+      "z": 60.02
+    },
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_3D_002",
+    "description": "20-tooth spur gear with central bore",
+    "labels": [
+      {
+        "label": "gear",
+        "category": "mechanical"
+      }
+    ],
+    "bounding_box_mm": {
+      "x": 59.88,
+      "y": 59.88,
+      "z": 10.03
+    },
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_3D_003",
+    "description": "Brake disc with centre hat and 10 cooling holes",
+    "labels": [
+      {
+        "label": "brake_disc",
+        "category": "automotive"
+      }
+    ],
+    "bounding_box_mm": {
+      "x": 300.84,
+      "y": 300.0,
+      "z": 40.62
+    },
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_3D_004",
+    "description": "Five-spoke wheel rim with flanged barrel and hub",
+    "labels": [
+      {
+        "label": "wheel_rim",
+        "category": "automotive"
+      }
+    ],
+    "bounding_box_mm": {
+      "x": 421.17,
+      "y": 420.0,
+      "z": 122.65
+    },
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  },
+  {
+    "sample_id": "CAD_3D_005",
+    "description": "Pipe flange with neck and 8 bolt holes",
+    "labels": [
+      {
+        "label": "pipe_flange",
+        "category": "industrial"
+      }
+    ],
+    "bounding_box_mm": {
+      "x": 160.45,
+      "y": 160.0,
+      "z": 45.33
+    },
+    "review": {
+      "status": "verified",
+      "review_type": "automated_geometry_check"
+    }
+  }
+]
